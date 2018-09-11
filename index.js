@@ -28,7 +28,7 @@ module.exports = function(content) {
 		root = Path.join(config.context || ".");
 	}
 
-	Engine.registerFileSystem(new Liquid.LocalFileSystem(root));
+	Engine.registerFileSystem(new Liquid.LocalFileSystem(root, config.extension));
 	if (typeof config.filters === 'object') {
 		Engine.registerFilters(config.filters);
 	}
