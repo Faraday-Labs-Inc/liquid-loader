@@ -1,6 +1,6 @@
 var loaderUtils = require("loader-utils");
 var assign = require("object-assign");
-var Liquid = require("liquid-node");
+var Liquid = require("liquid");
 var Engine = new Liquid.Engine();
 var Path = require("path");
 
