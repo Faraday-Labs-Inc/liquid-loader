@@ -22,10 +22,9 @@
 	},
 	"dependencies": {
 		"html-loader": "^0.5.1",
+		"liquid": "git+https://github.com/Faraday-Labs-Inc/liquid.git",
 		"loader-utils": "^1.0.2",
 		"object-assign": "^4.1.0"
 	},
-	"devDependencies": {
-		"liquid": "git+https://github.com/Faraday-Labs-Inc/liquid.git"
-	}
+	"devDependencies": {}
 }
